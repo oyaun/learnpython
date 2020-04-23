@@ -2,7 +2,11 @@
 This document was prepared for just learning
 by oyaun
 """
-print("Hello World")
+
+import os
+
+strtest = "Hello World"
+print (strtest[1])
 
 a = 2
 b = 5
@@ -25,4 +29,7 @@ def my_func():
     print(x)
 
 my_func()
+
+os.system("ping -c 3 google.com")
+
 exit()
